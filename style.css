@@ -1,3 +1,7 @@
+body{
+    background-color:#A7B3B9;
+    font-family: 'Montserrat', sans-serif;
+}
 .degree_symbol:not(:empty)::after {
     content: "°"
 }
@@ -7,6 +11,157 @@
 }
 
 #map {
-	width: 600px;
-    height: 600px;
+	width: 1280px;
+    height: 800px;
+}
+.toolbar_left{
+   width: 8em;
+   height: 8em;
+   color: whitesmoke;
+   margin-left:-3%;
+   margin-top: -3%;
+}
+.toolbar_middle{
+    text-align: center;
+    font-size:2em; 
+    margin-top:-5%;
+    color: whitesmoke;
+}
+.weather_alerts{
+    text-align: center;
+    font-size: .5em;
+    margin-top:-.5%;
+    margin-bottom:30%;
+    color: whitesmoke;
+}
+.toolbar_right{
+    color: whitesmoke;
+    font-size:1em;
+    text-align:right;
+    margin-top: -39%;
+    margin-bottom: 30%;
+}
+.current_day{
+    font-size: 8em;
+    text-align: center;
+    margin-top: -18%;
+    margin-bottom:30%;
+    color: whitesmoke;
+}
+.current_icon{
+    margin-top:-30%;
+    margin-left:33%;
+    width: 30em;
+    height: 30em;
+}
+.temp_high{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.up_triangle{
+    width: 15%;
+    height:15%;
+    margin-left:21%;
+    margin-top:-8.5%;
+}
+.temp_low{
+    color:whitesmoke;
+    font-size:20px;
+    margin-top:-10%;
+    margin-left:67%;
+}
+.down_triangle{
+    width: 15%;
+    height:15%;
+    margin-left:63%;
+    margin-top:-9%;
+}
+.timeline{
+    width:120%;
+    height:100%;
+    margin-left:-9%;
+    margin-top:-14%;
+
+}
+.sunrise{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left:15%;
+    margin-top: -20%;
+    margin-bottom: 30%;
+}
+.sunrise_time{
+    font-size: 17px;
+    color: whitesmoke;
+    margin-left:15%;
+    margin-top: -30%;
+    margin-bottom: 30%;
+}
+.sunset{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left:80%;
+    margin-top: -32.50%;
+    margin-bottom: 30%;
+}
+.sunset_time{
+    font-size: 17px;
+    color: whitesmoke;
+    margin-left:80%;
+    margin-top: -30%;
+    margin-bottom: 30%;
+}
+.monday{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left:15%;
+    margin-right: -20%;
+    margin-top: -20%;
+}
+.monday_sun{
+    width: 80px;
+    height:80px;
+    margin-left: 14.5%;
+    margin-top:-2%;
+}
+.monday_high{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left:13%;
+    margin-right: -20%;
+    margin-top: -1%;
+}
+.monday_low{
+    color:black;
+    font-size: 15px;
+    margin-left:20%;
+    margin-top: -2.40%;
+}
+.tuesday{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left:30%;
+    margin-right: -20%;
+    margin-top: -11%;
+}
+.tuesday_partly_cloudy{
+    width:95px;
+    height:95px;
+    margin-left:29.5%;
+    margin-top:-2.5%;
+}
+.tuesday_high{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left:28%;
+    margin-right: -20%;
+    margin-top: -1.5%;
+}
+.tuesday_low{
+    color:black;
+    font-size: 15px;
+    margin-left:36%;
+    margin-top: -2.40%;
 }
